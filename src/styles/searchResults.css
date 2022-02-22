@@ -1,0 +1,36 @@
+.search-results {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+  margin-bottom: 40px;
+}
+
+.search-results__image {
+  margin-top: 5px;
+  width: 80%;
+  height: 150px;
+  border: 3px solid rgb(1, 1, 75);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.search-results {
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-results__image {
+    margin: 10px;
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .search-results__image {
+    margin: 5px;
+    height: 400px;
+    width: 25%;
+  }
+}
